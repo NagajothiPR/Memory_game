@@ -49,7 +49,7 @@ const generateRandomimgs = () => {
   let arr = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
   arr = arr.sort(() => Math.random() - 0.5);
   for (let i = 0; i < 16; i++) {
-    imgs[i].src = `images/${arr[i]}.jpg`;
+    imgs[i].src = `./images/${arr[i]}.jpg`;
   }
 };
 
